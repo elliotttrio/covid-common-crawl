@@ -1,4 +1,4 @@
-# Extracting Covid-19 Economic Impact Using Common Crawler
+# Extracting Covid-19 Economic Impact Using Common Crawl
 
 **Task:** With this coding exercise, I was asked to extract 1,000 URLs from the 2020 archives of Common Crawler that discusses or are relevant to Covid-19 economic impact. 
 
@@ -8,7 +8,7 @@ As stated in the prompt, there is an ambiguous exercise that can be approached i
 
 2. Regex: Using regex to isolate relevant URLs was the most challenging part of this exercise. Given the structure of the dataset. I settled on looking only at results that starts with "https://" to narrow down my searches and only looked at results with my relevant keyword "covid" or "covid-19" after a ".com" domain. Given the time contraint and the limits of my computer, I was only able to parse through of this segment for March-April 2020: http://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2020-16/segments/1585370490497.6/warc/CC-MAIN-20200328074047-20200328104047-00000.warc.gz
 
-3. I then appended the results to a list which I then filtered results to only keep results that have the following words within the URL: stimulus, check, economic, unemployment and benefits. 
+3. I then appended the results to a list which I then filtered results to only keep results that have the following words within the URL: stimulus, check, economic, impact, unemployment and benefits. 
 
 **Other approaches considered:**
 1. Looking at particular newspapers: This seemedm like the most straighforward approach by isolating only reowned newspapers to filter out search results. However, in practice I found this difficult given that the URLs can be ID numbers and does not have keywords related to Covid-19.
