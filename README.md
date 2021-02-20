@@ -1,6 +1,6 @@
 # Extracting Covid-19 Economic Impact Using Common Crawl
 
-**Task:** With this coding exercise, I was asked to extract 1,000 URLs from the 2020 archives of Common Crawler that discusses or are relevant to Covid-19 economic impact. 
+**Task:** With this coding exercise, I was asked to extract 1,000 URLs from the 2020 archives of Common Crawl that discusses or are relevant to Covid-19 economic impact. 
 
 As stated in the prompt, there is an ambiguous exercise that can be approached in many ways. To not be overwhelmed by the possibilities, I first created an outline of how to attack this large dataset.
 
