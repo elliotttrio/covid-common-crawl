@@ -2,7 +2,7 @@
 
 **Task:** With this coding exercise, I was asked to extract 1,000 URLs from the 2020 archives of Common Crawl that discusses or are relevant to Covid-19 economic impact. 
 
-As stated in the prompt, there is an ambiguous exercise that can be approached in many ways. To not be overwhelmed by the possibilities, I first created an outline of how to attack this large dataset.
+As stated in the prompt, this is an ambiguous exercise that can be approached in many ways. To not be overwhelmed by the possibilities, I first created an outline of how to attack this large dataset.
 
 1. Identifying trends: Given the time constraint of this project, I wanted to go after low-hanging fruits by first running the query through Google Trends. Using the pytrends package, I found that the majority of queries regarding covid-19 within the business news and fiscal policy news section occured around March-April 2020. I also found most relevant queries to contain keywords such as "stimulus", "stimulus checks", and "unemployment benefits." Using this information, I centered my search queries around those keywords and timeframe.
 
