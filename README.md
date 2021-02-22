@@ -11,8 +11,8 @@ As stated in the prompt, this is an ambiguous exercise that can be approached in
 3. I then appended the results to a list which I then filtered results to only keep results that have the following words within the URL: stimulus, check, economic, impact, unemployment and benefits. 
 
 **Other approaches considered:**
-1. Looking at particular newspapers: This seemedm like the most straighforward approach by isolating only reowned newspapers to filter out search results. However, in practice I found this difficult given that the URLs can be ID numbers and does not have keywords related to Covid-19.
-2. Looking only into social media posts and blogs: If given the time, it would have been interesting to use this exercise to look into posts and blogs concerning covid-19 and economics situation
+1. Looking at particular newspapers: The most straighforward approach seem to be isolating only reowned newspapers to filter out search results. However, in practice I found this difficult given that the URLs can be ID numbers and does not have keywords related to Covid-19.
+2. Looking only into social media posts and blogs: If given the time, it would have been interesting to use this exercise to look into posts and blogs concerning covid-19 and  the economics situation.
 
 **Lessons Learned:** If I were to repeat this exercise, I would try to optimize my regular expression to more efficently run through my query. Loading my query took a significant amount of time. One potential way to do this include making sure the query include the specific keywords from the Google Trends report rather than filtering for the keywords at the very end. 
 
